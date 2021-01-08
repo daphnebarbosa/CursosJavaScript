@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<title>Aula 03</title>
+
+<script type="text/javascript">
+
+
+    //primeira maneira de criar Arrays
+    var lista_frutas = Array();
+
+    lista_frutas [1] = 'banana';
+    lista_frutas [2] = 'maçã';
+    lista_frutas [3] = 'morango';
+    lista_frutas [4] = 'uva';
+
+    alert(lista_frutas[3]);
+
+    //segunda maneira de criar Arrays
+    var lista_de_frutas = Array('banana', ' maçã', ' morango', ' uva ');
+
+    document.write(lista_de_frutas[2]);
+    
+</script>
+
+<body>
+</body>
+</html>
