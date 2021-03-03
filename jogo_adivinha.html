@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() *10);
+    var tentativa = parseInt(prompt("Adivinhe um número de 0 a 10."));
+    
+    if(tentativa == numeroPensado) {
+        mostra("Acertou!");
+    } else {
+        mostra("Errou, o número correto é " + numeroPensado);
+    }
+    
+</script>
